@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 //Images
 import volunteering from '../img/volunteering.jpg';
-import forest from '../img/ForestOne.jpg';
-import lake from '../img/LakeOne.jpg';
+import MassActions from '../img/23massactions.jpg';
+import Dynasty from '../img/35dynasty1.jpg';
+//import lake from '../img/LakeOne.jpg';
 //Animations
 import { motion } from "framer-motion";
 import {slider, pageAnimation, fade, photoAnimation, lineAnimation} from '../animation';
@@ -29,24 +30,24 @@ const OurWork = () => {
             <Movie>
                 <motion.h2 variants={fade}>Волонтерство</motion.h2>
                 <motion.div variants={lineAnimation} className='line'></motion.div>
-                <Link to='/work/the-athlete'>
+                <Link to='/work/volunteer'>
                     <Hide>
                         <motion.img variants={photoAnimation} src={volunteering} alt='volunteering' />
                     </Hide>
                 </Link>
             </Movie>
             <Movie ref={element} variants={fade} animate={controls} initial='hidden'>
-                <h2>Explore lakes</h2>
+                <h2>Культутно-массовые мероприятия</h2>
                 <motion.div variants={lineAnimation} className='line'></motion.div>
-                <Link to='/work/the-racer'>
-                    <img src={lake} alt='lake' />
+                <Link to='/work/massactions'>
+                    <img src={MassActions} alt='mass actions' />
                 </Link>
             </Movie>
             <Movie  ref={element2} variants={fade} animate={controls2} initial='hidden'>
-                <h2>Explore forests</h2>
+                <h2>Победители конкурсов</h2>
                 <motion.div variants={lineAnimation} className='line'></motion.div>
-                <Link to='/work/good-times'>
-                    <img src={forest} alt='forest' />
+                <Link to='/work/winners'>
+                    <img src={Dynasty} alt='winners' />
                 </Link>
             </Movie>
             <ScrollTop />

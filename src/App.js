@@ -8,9 +8,13 @@ import Nav from "./components/Nav";
 //import TheAthlete from './pages/TheAthlete';
 //Router
 import { Route, Routes, useLocation } from 'react-router-dom';
-import MovieDetail from "./pages/MovieDetail";
+//import MovieDetail from "./pages/MovieDetail";
 //Animation
 import { AnimatePresence } from 'framer-motion';
+import Volunteer from './pages/Volunteer';
+import MassActions from "./pages/MassActions";
+import Winners from "./pages/Winners";
+//import Footer from "./components/Footer";
 
 function App() {
 
@@ -28,14 +32,20 @@ function App() {
         <Route path='/work' exact element={<OurWork />}>
           {/* <OurWork /> */}
         </Route>
-        <Route path="/work/:id" element={<MovieDetail />}>
-          {/* <MovieDetail /> */}
+        {/* <Route path="/work/:id" element={<MovieDetail />}>
+        </Route> */}
+        <Route path="/work/volunteer" element={<Volunteer />}>
+        </Route>
+        <Route path="/work/massactions" element={<MassActions />}>
+        </Route>
+        <Route path="work/winners" element={<Winners />}>
         </Route>
         <Route path='/contact' element={<ContactUs />}>
           {/* <ContactUs /> */}
         </Route>
       </Routes>
       </AnimatePresence>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -43,7 +43,7 @@ const MovieDetail = () => {
                     />
                 ))}
             </Awards> */}
-            <ImageDisplay>
+            <ImageDisplayVolunteer>
                 <h2>1. Доброе электричество - детям</h2>
                 <img src={movie.secondImg} alt="movie"/>
 
@@ -61,7 +61,11 @@ const MovieDetail = () => {
 
                 <h2>6. Лес победы</h2>
                 <img src={movie.seventhImg} alt="movie"/>
-            </ImageDisplay>
+            </ImageDisplayVolunteer>
+            <ImageDisplayMassActions>
+                <h2>1. Ловись рыбка</h2>
+                <img src={movie.eighthImg} />
+            </ImageDisplayMassActions>
         </Details>
         )}
         </>
@@ -119,7 +123,22 @@ const AwardStyle = styled.div`
     }
 `;
 
-const ImageDisplay = styled.div`
+const ImageDisplayVolunteer = styled.div`
+    //min-height: 50vh;
+    h2 {
+        background: #495a78;
+        margin: 20px 0;
+        padding: 10px 0 10px 20px;
+        text-decoration: underline;
+    }
+    img {
+        //height: 100vh;
+        object-fit: cover;
+        width: 100%;
+    }
+`;
+
+const ImageDisplayMassActions = styled.div`
     //min-height: 50vh;
     h2 {
         background: #495a78;

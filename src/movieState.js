@@ -8,6 +8,8 @@ import care4kids from './img/care4kids.jpg';
 import ancestors from './img/ancestors.jpg';
 import weRemember from './img/weRemember.jpg';
 import victoryForest from './img/victoryForest.jpg';
+import MassActions from './img/23massactions.jpg';
+import Fishing from './img/29fishing.jpg';
 import forestTwo from "./img/ForestTwo.jpg";
 import lakeTwo from "./img/LakeTwo.jpg";
 
@@ -16,8 +18,19 @@ export const MovieState = () => {
     {
       title: "Волонтерские акции",
       mainImg: volunteerMain,
-      secondImg: kindel4kids,
-      thirdImg: kindel4kids2,
+      information: [
+        {
+          title: '1. Доброе электричество детям',
+          secondImg: kindel4kids, 
+        },
+        {
+          title: '2. Доброе электричество детям',
+          thirdImg: kindel4kids2,    
+        },
+      ],
+      
+      // secondImg: kindel4kids,
+      // thirdImg: kindel4kids2,
       fourthImg: care4kids,
       fifthImg: ancestors,
       sixthImg: weRemember,
@@ -42,10 +55,10 @@ export const MovieState = () => {
       ],
     },
     {
-      title: "Explore lakes",
-      mainImg: lake,
+      title: "Культутно-массовые мероприятия",
+      mainImg: MassActions,
       url: "/work/good-times",
-      secondaryImg: lakeTwo,
+      eightsImg: Fishing,
       awards: [
         {
           title: "Truly masterpiece",

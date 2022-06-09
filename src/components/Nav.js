@@ -36,7 +36,7 @@ const Nav = () => {
                 </li>
                 <li>
                     <Link to='/contact'>
-                        3. Contact Us
+                        3. Участник конкурса
                     </Link>
                     <Line 
                         transition={{duration: 0.75}} 
@@ -107,4 +107,4 @@ const Line = styled(motion.div)`
   }
 `;
 
-export default Nav;
+export default Nav; 
