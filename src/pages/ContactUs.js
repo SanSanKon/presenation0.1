@@ -30,7 +30,7 @@ const Participant = () => {
                       <p><span>Место работы, должность:</span>Инженер Красногорского РЭС филиала ПАО «Россети Московский регион» 
                       - Северные Электрические сети;</p><br />
                       <p><span>Название первичной профсоюзной организации:</span> ППО Северных электрических сетей МОМ и МОВЭП;</p><br />
-                      <p><span>Название отраслевого профсоюза:</span> МОМ и МОВЭП;</p><br />
+                      <p><span>Название отраслевого профсоюза:</span> МОМ и МО ВЭП;</p><br />
                       <p><span>Стаж профосоюзной деятельности, должность и стаж:</span> член совета молодых работников: 3 года;</p><br />
                       <p><span>Краткая характеристика себя как молодого профсоюзного лидера:</span> инициативность, активность, вовлеченность, 
                       работа с молодежью, агитация молодежи на вступление в профсоюз;</p><br />
@@ -122,87 +122,3 @@ const Faq = styled(About)`
 `;
 
 export default Participant;
-
-
-
-
-
-
-
-
-// const ContactUs = () => {
-//   return (
-//     <ContactStyle
-//       exit="exit" 
-//       variants={pageAnimation} 
-//       initial="hidden" 
-//       animate="show"
-//       style={{ background: '#FFF' }}
-//     >
-//       <Title>
-//         <Hide>
-//           <motion.h2 variants={titleAnimation}>Get in touch</motion.h2>
-//         </Hide>
-//       </Title>
-//       <div>
-//       <Hide>
-//         <Social variants={titleAnimation}>
-//           <Circle />
-//           <h2>Send Us A Message</h2>
-//         </Social>
-//       </Hide>
-//       <Hide>
-//         <Social variants={titleAnimation}>
-//           <Circle />
-//           <h2>Send An Email.</h2>
-//         </Social>
-//       </Hide>
-//       <Hide>
-//         <Social variants={titleAnimation}>
-//           <Circle />
-//           <h2>Social Media</h2>
-//         </Social>
-//       </Hide>
-//       </div>
-//     </ContactStyle>
-//   )
-// }
-
-// const ContactStyle = styled(motion.div)`
-//   color: #353535;
-//   min-height: 90vh;
-//   padding: 5rem 10rem;
-//   @media screen and (max-width: 1500px) {
-//     font-size: 1rem;
-//     padding: 2rem;
-//   }
-// `;
-
-// const Title = styled.div`
-//   color: black;
-//   margin-bottom: 4rem;
-//   @media screen and (max-width: 1500px) {
-//     margin-top: 5rem;
-//   }
-// `;
-
-// const Hide = styled.div`
-//   overflow: hidden;
-// `;
-
-// const Circle = styled.div`
-//   background: #353535;
-//   border-radius: 50%;
-//   height: 3rem;
-//   width: 3rem;
-// `;
-
-// const Social = styled(motion.div)`
-//   align-items: center;
-//   display: flex;
-//   h2 {
-//     margin: 2rem;
-//   }
-// `;
-
-// export default ContactUs;
