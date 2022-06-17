@@ -44,6 +44,9 @@ a {
 h2 {
     font-size: 2rem;
     font-weight: lighter;
+    @media screen and (max-width: 631px) {
+        font-size: 1.5rem;
+    }
 }
 
 h3 {
@@ -53,6 +56,9 @@ h3 {
 h4 {
     font-size: 2rem;
     font-weight: bold;
+    @media screen and (max-width: 631px) {
+        font-size: 1.5rem;
+    }
 }
 
 a {
@@ -69,6 +75,9 @@ p {
     font-size: 1.4rem;
     line-height: 150%;
     padding: 3rem 0rem;
+    @media screen and (max-width: 631px) {
+        padding: 1.5rem;
+    }
 }
 
 `;

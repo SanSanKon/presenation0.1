@@ -11,7 +11,7 @@ import { useScroll } from "../components/useScroll";
 import { scrollReveal } from "../animation";
 
 //Import images
-import ParticipantPhoto from '../img/participant.jpeg';
+import ParticipantPhoto from '../img/participantDarya.jpeg';
 import QuestionnaireOne from '../img/1questionnaire.jpg';
 import QuestionnaireTwo from '../img/2questionnaire.jpg';
 import QuestionnaireThree from '../img/3questionnaire.jpg';
@@ -25,19 +25,19 @@ const Participant = () => {
             <Toggle title='Биография участника конкурса'>
                 <div className="answerQuestionnaire">
                     <div className='anketa'>
-                      <p><span>Фамилия, имя, отчество:</span> Насонова Анна Александровна;</p><br />
-                      <p><span>Число, месяц, год рождения:</span> 11.06.1987;</p><br />
-                      <p><span>Контактный телефон, e-mail:</span> 8-915-426-02-68, NasonovaAA@rossetimr.ru;</p><br />
-                      <p><span>Образование:</span> Высшее;</p><br />
+                      <p><span>Фамилия, имя, отчество:</span> Артемкина Дарья Александровна;</p><br />
+                      {/* <p><span>Число, месяц, год рождения:</span> 11.06.1987;</p><br /> */}
+                      {/* <p><span>Контактный телефон, e-mail:</span> 8-915-426-02-68, NasonovaAA@rossetimr.ru;</p><br /> */}
+                      <p><span>Образование:</span>Московсеий энергетический институт, неоконченное высшее;</p><br />
                       <p><span>Место работы, должность:</span> Северные электрические сети - филиал ПАО "Россети - Московский регион",
-                      главный специалист отдела кадрового обеспечения;</p><br />
+                      Главный специалист отдела оплаты труда и социальных программ управления по работе с персоналом;</p><br />
                       <p><span>Название первичной профсоюзной организации:</span> ППО Северных электрических сетей МОМ и МОВЭП;</p><br />
                       <p><span>Название отраслевого профсоюза:</span> МОМ и МОВЭП;</p><br />
-                      <p><span>Стаж профосоюзной деятельности, должность и стаж:</span> председатель совета молодых работников: 5 лет; <br />
-                      профгрупорг: 12 лет;</p><br />
+                      <p><span>Стаж профосоюзной деятельности, должность и стаж:</span> член совета молодых работников: 4 года;</p><br />
                       <p><span>Краткая характеристика себя как молодого профсоюзного лидера:</span> инициативность, активность, вовлеченность, 
-                      работа с молодежью - председатель Совета МР, агитация молодежи на вступление в профсоюз;</p><br />
-                      <p><span>Прочее:</span> член молодёжного совета МОМ и МО ВЭП;</p>
+                      работа с молодежью, агитация молодежи на вступление в профсоюз;</p><br />
+                      <p><span>Прочее:</span> - активист МОМ и МО ВЭП;<br /> - награждена Благодарностью Общественной организации 
+                      "Всероссийский Электропрофсоюз" за активную плодотворную работу в Профсоюзе;</p>
                     </div>
                     <img className='participantImg' src={ParticipantPhoto} alt='participant' />
                 </div>
@@ -55,6 +55,8 @@ const Participant = () => {
                     и защите прав работников - членов профсоюза. При этом подчеркивая, что деятельность профсоюза не ограничвается указанным выше.</p><br />
                     <p>2. Использование в беседе эффективной аргументации, путем ссылок на зконодательные акты, статистические данные,
                     факты из открытых источников.</p>
+                    <p>С целью более эффективной и плодотворной совместной работы профсоюза и уполномоченных по охране труда, 
+                    предложены и используются анкеты-опросник в филиале.</p>
                     <img className="someImg" src={QuestionnaireOne} alt='questionnaireOne' />
                     <img className="someImg" src={QuestionnaireTwo} alt='questionnaireTwo' />
                     <img className="someImg" src={QuestionnaireThree} alt='questionnaireThree' />

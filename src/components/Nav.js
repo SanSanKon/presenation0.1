@@ -79,18 +79,27 @@ const StyledNav = styled.nav`
     }
     @media screen and (max-width: 1300px) {
         flex-direction: column;
-        padding: 2rem 1rem;
+        padding: 1rem;
         #logo {
             display: inline-block;
-            margin: 2rem;
+            margin: 1rem;
         }
         ul{
             justify-content: space-around;
-            padding: 2rem;
+            padding: 1rem;
             width: 100%;
             li {
                 padding: 0;
             }
+        }
+    }
+    @media screen and (max-width: 631px) {
+        padding: 0.825rem;
+        ul {
+            padding: 0.825rem;
+        }
+        a {
+            font-size: 0.825rem;
         }
     }
 `;

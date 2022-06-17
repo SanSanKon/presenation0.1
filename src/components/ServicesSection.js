@@ -90,6 +90,9 @@ const ServicesSection = () => {
 const Services = styled(About)`
     h2 {
         padding-bottom: 5rem;
+        @media screen and (max-width: 631px) {
+            padding-bottom: 2.5rem;
+        }
     }
     p {
         padding: 2rem 0rem 4rem 0rem;

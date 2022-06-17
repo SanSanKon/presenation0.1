@@ -18,8 +18,7 @@ import ninthOfMayThree from '../img/9ofMay3.jpeg';
 import ninthOfMayFour from '../img/9ofMay4.jpeg';
 import ninthOfMayFive from '../img/9ofMay5.jpeg';
 import SokolnikiOne from '../img/sokolniki1.jpeg';
-import SokolnikiTwo from '../img/sokolniki2.jpeg'
-import SokolnikiThree from '../img/sokolniki3.jpeg'
+import SokolnikiThree from '../img/sokolniki3.jpeg';
 import ThanksOne from '../img/48thanks1.jpg';
 import ThanksTwo from '../img/49thanks2.jpg';
 import ThanksThree from '../img/50thanks3.jpg';
@@ -68,7 +67,6 @@ const FaqSection = () => {
             <Toggle title='Участие в субботнике в парке Сокольники'>
                 <div className="answer">
                     <img className="twelvthImg" src={SokolnikiOne} alt='sokolnikiOne' />
-                    <img className="thirteenthImg" src={SokolnikiTwo} alt='sokolnikiTwo' />
                     <img className="fourteenthImg" src={SokolnikiThree} alt='sokolnikiOne' />
                 </div>
             </Toggle>
@@ -100,10 +98,16 @@ const Faq = styled(About)`
         height: 0.2rem;
         margin: 2rem 0rem;
         width: 100%;
+        @media screen and (max-width: 631px) {
+            margin: 1rem 0rem;
+        }
     }
     .question {
         cursor: pointer;
         padding: 3rem 0rem;
+        @media screen and (max-width: 631px) {
+            padding: 1.5rem;
+        }
     }
     .answer {
         padding: 2rem 0rem;
