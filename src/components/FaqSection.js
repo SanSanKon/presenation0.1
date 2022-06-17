@@ -12,8 +12,8 @@ import sportActionList from '../img/26sportaction.jpg';
 import partAndOrg from '../img/28actionpartandorg.jpg';
 import actionSes from '../img/31actionses.jpg';
 import teamBuilding from '../img/32teambuilding.jpg';
-import ninthOfMayOne from '../img/9ofMay1.jpeg';
-import ninthOfMayTwo from '../img/9ofMay2.jpeg';
+import ninthOfMayOne from '../img/9ofMay6.jpeg';
+import ninthOfMayTwo from '../img/9ofMay7.jpeg';
 import ninthOfMayThree from '../img/9ofMay3.jpeg';
 import ninthOfMayFour from '../img/9ofMay4.jpeg';
 import ninthOfMayFive from '../img/9ofMay5.jpeg';
@@ -22,6 +22,10 @@ import SokolnikiThree from '../img/sokolniki3.jpeg';
 import ThanksOne from '../img/48thanks1.jpg';
 import ThanksTwo from '../img/49thanks2.jpg';
 import ThanksThree from '../img/50thanks3.jpg';
+import ThanksFour from '../img/LarisaThanks1.jpg';
+import ThanksFive from '../img/LarisaThanks2.jpg';
+import ThanksSix from '../img/LarisaThanks3.jpg';
+import ThanksSeven from '../img/LarisaThanks4.jpg';
 
 const FaqSection = () => {
     const [element, controls] = useScroll();
@@ -75,6 +79,10 @@ const FaqSection = () => {
                     <img className="fifteenththImg" src={ThanksOne} alt='thanks-one' />
                     <img className="sixteenthImg" src={ThanksTwo} alt='thanks-two' />
                     <img className="seventeenthImg" src={ThanksThree} alt='thanks-three' />
+                    <img className="eighteenthImg" src={ThanksFour} alt='thanks-four' />
+                    <img className="nineteenthImg" src={ThanksFive} alt='thanks-five' />
+                    <img className="twentythImg" src={ThanksSix} alt='thanks-six' />
+                    <img className="twentyfirstImg" src={ThanksSeven} alt='thanks-seven' />
                 </div>
             </Toggle>
         </AnimateSharedLayout>
@@ -130,7 +138,11 @@ const Faq = styled(About)`
         .fourteenthImg,
         .fifteenththImg,
         .sixteenthImg,
-        .seventeenthImg {
+        .seventeenthImg,
+        .eighteenthImg,
+        .nineteenthImg,
+        .twentythImg,
+        .twentyfirstImg {
             margin: 10px 0 20px;
             width: 100%;
         }
