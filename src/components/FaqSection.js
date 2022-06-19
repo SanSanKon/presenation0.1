@@ -130,7 +130,7 @@ const Faq = styled(About)`
         .sixthImg,
         .seventhImg,
         .eighthImg,
-        .ninthImg
+        .ninthImg,
         .tenthImg,
         .eleventhImg,
         .twelvthImg,

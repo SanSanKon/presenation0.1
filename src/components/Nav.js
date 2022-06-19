@@ -102,6 +102,19 @@ const StyledNav = styled.nav`
             font-size: 0.825rem;
         }
     }
+    @media screen and (max-width: 450px) {
+        padding: 0.5rem;
+        #logo {
+            font-size: 1rem;
+            margin: 0.5rem;
+        }
+        ul {
+            padding: 0.5rem;
+        }
+        a {
+            font-size: 0.5rem;
+        }
+    }
 `;
 
 const Line = styled(motion.div)`

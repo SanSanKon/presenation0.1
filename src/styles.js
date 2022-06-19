@@ -13,8 +13,11 @@ export const About = styled(motion.div)`
         padding: 2rem 2rem;
         text-align: center;
     }
+    @media screen and (max-width: 450px) {
+        padding: 1rem 1rem;
+    }
 `;
-
+ 
 export const Description = styled.div`
     flex: 1;
     padding-right: 5rem;
@@ -28,6 +31,11 @@ export const Description = styled.div`
             margin: 2rem 0rem 5rem 0rem;
         }
     }
+    @media screen and (max-width: 450px) {
+        button {
+            margin: 1rem 0rem 2rem 0rem;
+        }
+    }
 `;
 
 export const Image = styled.div`
@@ -38,6 +46,13 @@ export const Image = styled.div`
         height: 80vh;
         object-fit: cover;
         width: 100%;
+       
+    }
+    @media screen and (max-width: 450px) {
+        overflow: auto;
+            img {
+                display: none;
+            }
     }
 `;
 

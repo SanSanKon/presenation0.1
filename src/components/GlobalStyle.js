@@ -47,10 +47,16 @@ h2 {
     @media screen and (max-width: 631px) {
         font-size: 1.5rem;
     }
+    @media screen and (max-width: 450px) {
+        font-size: 1rem;
+    }
 }
 
 h3 {
     color: white;
+    @media screen and (max-width: 450px) {
+        font-size: 0.8rem;
+    }
 }
 
 h4 {
@@ -58,6 +64,9 @@ h4 {
     font-weight: bold;
     @media screen and (max-width: 631px) {
         font-size: 1.5rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.75rem;
     }
 }
 
@@ -77,6 +86,10 @@ p {
     padding: 3rem 0rem;
     @media screen and (max-width: 631px) {
         padding: 1.5rem;
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 0.7rem;
+        padding: 1rem;
     }
 }
 

@@ -80,6 +80,9 @@ const Movie = styled(motion.div)`
         object-fit: cover;
         width: 100%;
     }
+    @media screen and (max-width: 450px) {
+        padding-bottom: 1rem;
+    }
 `;
 
 const Hide = styled.div`

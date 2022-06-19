@@ -84,6 +84,9 @@ const Faq = styled(About)`
   .question {
       cursor: pointer;
       padding: 3rem 0rem;
+      @media screen and (max-width: 450px) {
+        padding: 0.5rem 0rem;
+      }
   }
   .answerQuestionnaire {
     display: flex;
@@ -101,6 +104,9 @@ const Faq = styled(About)`
           font-weight: lighter;
           text-decoration: underline;
         }
+        @media screen and (max-width: 450px) {
+        font-size: 0.7rem;
+    }
       }
     }
       
@@ -108,6 +114,27 @@ const Faq = styled(About)`
           //margin: 10px 0 20px;
           width: 50%;
       }
+      @media screen and (max-width: 450px) {
+        flex-direction: column;
+        padding: 0.25rem 0rem;
+        .anketa {
+            margin-bottom: 10px;
+            width: 100%;
+        p {
+            font-size: 0.825rem;
+            margin: 0 10px 0 0;
+            padding: 0;
+            span {
+            color: #fff;
+            font-weight: lighter;
+            text-decoration: underline;
+            }
+        }
+    }
+    .participantImg {
+        width: 100%;
+    }
+    }
   }
   .answer {
       padding: 2rem 0rem;
