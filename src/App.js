@@ -42,7 +42,7 @@ function App() {
         </Route>
         <Route path='/contact' element={<ContactUs />}>
           {/* <ContactUs /> */}
-        </Route>
+        </Route> 
       </Routes>
       </AnimatePresence>
       {/* <Footer /> */}
