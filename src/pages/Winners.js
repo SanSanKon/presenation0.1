@@ -28,6 +28,9 @@ const ImageDisplay = styled.div`
         color: #fff;
         padding: 10px 0 0 20px;
         margin: 0 0 20px;
+        @media screen and (max-width: 450px) {
+            font-size: 1.25rem;
+        }
     }
     h2, p {
         background: #495a78;
